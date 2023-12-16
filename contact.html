@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2 etc Tutorial</title>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <link rel="stylesheet" href="stylee.css">
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+            integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    </head>
+
+    <body><section class="header">
+        <nav>
+            <a href="index.htmL"><img src="images/logo.ico"> </a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href = "index.html">HOME</a></li>
+                    <li><a href = "course-inner.html">ABOUT</a></li>
+                    <li><a href = "course.html">COURSE</a></li>
+                    <li><a href = "contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        
+         </nav>
+       
+       <div class="container">
+        <div class="form">
+            <div class="contact-info">
+                <h3 class="title">Let's get in touch</h3>
+                <p class="text">
+                    and with integrity, and it is essential to building trust and 
+                    respect in our relationships. Whether it's being honest with 
+                    ourselves and others
+                </p>
+                <div class="info";>
+                    <div class="information">
+                        <i class="fa fa-map-marker"> </i> <p>hyderabad</p>
+                        </div>
+                        <div class="information">
+                        <i class="fa fa-phone-square"> </i> <p>1234567890</p></div>
+                        <div class="information">
+                        <i class="fa fa-envelope"></i>
+                        <p>example@gmail.co,</p>
+                        
+
+                    </div>
+                    <p>connect with us in social media</p>
+
+<div class="section1">
+  <i class="fa fa-facebook-square"></i>
+  <i class="fa fa-twitter-square"></i>
+  <i class="fa fa-facebook"></i>
+  <i class="fa fa-twitter"></i>
+</div>
+                </div>
+
+            </div>
+            <div class="contact-form">
+                <span class="circle one"></span>
+<span class="circle two"></span>
+<form action="contact.html">
+    <h3 class="title">CONTACT US</h3>
+    <div class="input-container">
+<input type="text" name="name" class="input">
+<label for="">Usernamr</label>
+    </div>
+    <div class="input-container">
+        <input type="email" name="email" class="input">
+        <label for="">email</label>
+            </div>
+            <div class="input-container">
+                <input type="tel" name="phone" class="input">
+                <label for="">Phone</label>
+                    </div>
+                    <div class="input-container">
+                       <textarea name="name" class="input"></textarea>
+                        <label for="">message</label>
+                            </div>
+                            <input type="submit" value="send" class="btn">
+</form>
+            </div>
+        </div>
+       </div>
+    </section>
+
+        <!-- hero -->
+
+        <!-- contact -->
+
+        <!-- map -->
+
+        <!-- footer -->
+
+
+        <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+             navLinks.style.right = "0";
+            }
+            function hideMenu(){
+             navLinks.style.right = "-200px";
+            }
+ 
+         </script>
+ 
+
+    </body>
+
+</html>
